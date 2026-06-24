@@ -8,3 +8,5 @@ onlyBuiltDependencies:
   - '@prisma/client'
   - '@prisma/engines'
   - prisma
+  - '@parcel/watcher'
+  - '@swc/core'
