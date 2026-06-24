@@ -116,9 +116,6 @@
     "zod": "^4.3.6",
     "zustand": "^5.0.12"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": ["@prisma/engines", "prisma"]
-  },
   "devDependencies": {
     "@biomejs/biome": "^2.4.10",
     "@netlify/plugin-nextjs": "^5.15.9",
