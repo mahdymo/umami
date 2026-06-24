@@ -5,8 +5,8 @@ ignoredBuiltDependencies:
   - esbuild
   - sharp
 onlyBuiltDependencies:
+  - '@parcel/watcher'
   - '@prisma/client'
   - '@prisma/engines'
-  - prisma
-  - '@parcel/watcher'
   - '@swc/core'
+  - prisma
