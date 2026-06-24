@@ -5,6 +5,7 @@ onlyBuiltDependencies:
   - '@prisma/client'
   - '@prisma/engines'
   - '@swc/core'
+  - cypress
   - esbuild
   - prisma
   - sharp
