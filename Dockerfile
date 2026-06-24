@@ -48,7 +48,7 @@ RUN set -x \
 #    @prisma/adapter-pg@${PRISMA_VERSION}
 #RUN pnpm install --frozen-lockfile
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
-
+RUN pnpm install --frozen-lockfile --ignore-scripts
 RUN pnpm add npm-run-all dotenv chalk semver \
     prisma@${PRISMA_VERSION} \
     @prisma/client@${PRISMA_VERSION} \
